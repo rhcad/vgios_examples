@@ -1,0 +1,24 @@
+#OS junk files
+[Tt]humbs.db
+*.DS_Store
+*.bak*
+*~
+._*
+*.swp
+*.out
+*.tmp
+*.o
+*.d
+profile
+
+#Xcode files
+*.log
+xcuserdata
+xcshareddata
+
+*.pbxuser
+*.mode2v3
+*.mode1v3
+
+#do pod install yourself
+Pods
