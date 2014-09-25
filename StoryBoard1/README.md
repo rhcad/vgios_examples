@@ -1,4 +1,4 @@
-## iOS绘图例1：使用StoryBoard
+## 例1：使用StoryBoard绘图
 
 > 本例介绍在StoryBoard中使用TouchVG的方法，可以不写绘图代码。
 
