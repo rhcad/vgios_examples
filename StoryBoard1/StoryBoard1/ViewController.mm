@@ -7,6 +7,7 @@
 //
 
 #import "ViewController.h"
+#import "GiViewHelper.h"
 
 @interface ViewController ()
 @property (weak, nonatomic) IBOutlet UIButton *undoButton;
@@ -17,12 +18,17 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    
+    NSString *path = [LIBRARY_FOLDER stringByAppendingString:@"undo"];
+    [[GiViewHelper sharedInstance]startUndoRecord:path];
 }
 
 - (IBAction)undo:(id)sender {
+    [[GiViewHelper sharedInstance]undo];
 }
 
 - (IBAction)redo:(id)sender {
+    [[GiViewHelper sharedInstance]redo];
 }
 
 @end

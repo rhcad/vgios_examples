@@ -51,3 +51,22 @@
         }
 
         @end
+
+4. 在 ViewController.mm 中导入 `GiViewHelper.h`，在 viewDidLoad 中启用Undo功能，实现Undo/Redo按钮方法：
+
+        - (void)viewDidLoad {
+            [super viewDidLoad];
+            
+            NSString *path = [LIBRARY_FOLDER stringByAppendingString:@"undo"];
+            [[GiViewHelper sharedInstance]startUndoRecord:path];
+        }
+
+        - (IBAction)undo:(id)sender {
+            [[GiViewHelper sharedInstance]undo];
+        }
+
+        - (IBAction)redo:(id)sender {
+            [[GiViewHelper sharedInstance]undo];
+        }
+
+   运行程序，画几个图，试试Undo/Redo按钮吧。虽然能工作了，但按钮可用状态未显示出来。
