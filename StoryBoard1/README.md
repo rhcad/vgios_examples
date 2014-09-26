@@ -70,3 +70,23 @@
         }
 
    运行程序，画几个图，试试Undo/Redo按钮吧。虽然能工作了，但按钮可用状态未显示出来。
+
+5. 在 ViewController 中实现 `GiPaintViewDelegate` 观察者协议的 `onContentChanged:` 方法，注册此观察者。
+
+        @interface ViewController ()<GiPaintViewDelegate>
+        ...
+        - (void)viewDidLoad {
+            [super viewDidLoad];
+            ...
+            GiViewHelper *hlp = [GiViewHelper sharedInstance];
+
+            [hlp startUndoRecord:[LIBRARY_FOLDER stringByAppendingString:@"undo"]];
+            [hlp addDelegate:self];
+            [self onContentChanged:hlp.view];
+        }
+
+        - (void)onContentChanged:(id)view {
+            GiViewHelper *hlp = [GiViewHelper sharedInstance];
+            self.undoButton.enabled = [hlp canUndo];
+            self.redoButton.enabled = [hlp canRedo];
+        }

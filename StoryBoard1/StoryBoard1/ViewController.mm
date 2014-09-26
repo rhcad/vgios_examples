@@ -8,8 +8,9 @@
 
 #import "ViewController.h"
 #import "GiViewHelper.h"
+#import "GiPaintViewDelegate.h"
 
-@interface ViewController ()
+@interface ViewController ()<GiPaintViewDelegate>
 @property (weak, nonatomic) IBOutlet UIButton *undoButton;
 @property (weak, nonatomic) IBOutlet UIButton *redoButton;
 @end
@@ -19,8 +20,23 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     
-    NSString *path = [LIBRARY_FOLDER stringByAppendingString:@"undo"];
-    [[GiViewHelper sharedInstance]startUndoRecord:path];
+    [self.undoButton setImage:[UIImage imageNamed:@"undo1.png"] forState:UIControlStateDisabled];
+    [self.undoButton setImage:[UIImage imageNamed:@"undo2.png"] forState:UIControlStateNormal];
+    [self.redoButton setImage:[UIImage imageNamed:@"redo1.png"] forState:UIControlStateDisabled];
+    [self.redoButton setImage:[UIImage imageNamed:@"redo2.png"] forState:UIControlStateNormal];
+    
+    GiViewHelper *hlp = [GiViewHelper sharedInstance];
+
+    [hlp startUndoRecord:[LIBRARY_FOLDER stringByAppendingString:@"undo"]];
+    [hlp addDelegate:self];
+    [self onContentChanged:hlp.view];
+}
+
+- (void)onContentChanged:(id)view {
+    GiViewHelper *hlp = [GiViewHelper sharedInstance];
+    
+    self.undoButton.enabled = [hlp canUndo];
+    self.redoButton.enabled = [hlp canRedo];
 }
 
 - (IBAction)undo:(id)sender {
