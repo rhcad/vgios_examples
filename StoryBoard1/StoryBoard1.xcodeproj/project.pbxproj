@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		02776CC519D4FA4900C9CE87 /* redo1@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 02776CC119D4FA4900C9CE87 /* redo1@2x.png */; };
+		02776CC619D4FA4900C9CE87 /* redo2@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 02776CC219D4FA4900C9CE87 /* redo2@2x.png */; };
+		02776CC719D4FA4900C9CE87 /* undo1@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 02776CC319D4FA4900C9CE87 /* undo1@2x.png */; };
+		02776CC819D4FA4900C9CE87 /* undo2@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 02776CC419D4FA4900C9CE87 /* undo2@2x.png */; };
 		71E422DD72BA490EBC3DDA0D /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DC7730F4A57A4BB69DD52D63 /* libPods.a */; };
 		AEF09CD719D44F59006508D5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AEF09CD619D44F59006508D5 /* Foundation.framework */; };
 		AEF09CD919D44F59006508D5 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AEF09CD819D44F59006508D5 /* CoreGraphics.framework */; };
@@ -20,6 +24,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		02776CC119D4FA4900C9CE87 /* redo1@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "redo1@2x.png"; sourceTree = "<group>"; };
+		02776CC219D4FA4900C9CE87 /* redo2@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "redo2@2x.png"; sourceTree = "<group>"; };
+		02776CC319D4FA4900C9CE87 /* undo1@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "undo1@2x.png"; sourceTree = "<group>"; };
+		02776CC419D4FA4900C9CE87 /* undo2@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "undo2@2x.png"; sourceTree = "<group>"; };
 		A6677B0DD8A94800AD58F889 /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = "<group>"; };
 		AEF09CD319D44F59006508D5 /* StoryBoard1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StoryBoard1.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AEF09CD619D44F59006508D5 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -53,6 +61,17 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		02776CC019D4FA4900C9CE87 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				02776CC119D4FA4900C9CE87 /* redo1@2x.png */,
+				02776CC219D4FA4900C9CE87 /* redo2@2x.png */,
+				02776CC319D4FA4900C9CE87 /* undo1@2x.png */,
+				02776CC419D4FA4900C9CE87 /* undo2@2x.png */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
 		AEF09CCA19D44F59006508D5 = {
 			isa = PBXGroup;
 			children = (
@@ -91,6 +110,7 @@
 				AEF09CEB19D44F59006508D5 /* ViewController.h */,
 				AEF09CEC19D44F59006508D5 /* ViewController.mm */,
 				AEF09CEE19D44F59006508D5 /* Images.xcassets */,
+				02776CC019D4FA4900C9CE87 /* Images */,
 				AEF09CDD19D44F59006508D5 /* Supporting Files */,
 			);
 			path = StoryBoard1;
@@ -164,6 +184,10 @@
 				AEF09CEF19D44F59006508D5 /* Images.xcassets in Resources */,
 				AEF09CE119D44F59006508D5 /* InfoPlist.strings in Resources */,
 				AEF09CEA19D44F59006508D5 /* Main.storyboard in Resources */,
+				02776CC719D4FA4900C9CE87 /* undo1@2x.png in Resources */,
+				02776CC819D4FA4900C9CE87 /* undo2@2x.png in Resources */,
+				02776CC619D4FA4900C9CE87 /* redo2@2x.png in Resources */,
+				02776CC519D4FA4900C9CE87 /* redo1@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

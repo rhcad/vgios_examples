@@ -17,9 +17,46 @@
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="1kt-xM-D2N" customClass="GiPaintViewXIB">
-                                <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                                <rect key="frame" x="0.0" y="20" width="320" height="548"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="VW0-df-6a5" userLabel="undo">
+                                        <rect key="frame" x="0.0" y="20" width="40" height="40"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="40" id="dX7-dh-RCA"/>
+                                            <constraint firstAttribute="height" constant="40" id="vTG-qC-Xwp"/>
+                                        </constraints>
+                                        <state key="normal" image="undo1.png">
+                                            <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="undo:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="0p8-RC-QAI"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1lR-4S-JWr" userLabel="redo">
+                                        <rect key="frame" x="48" y="20" width="40" height="40"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="40" id="DLr-fq-PHg"/>
+                                            <constraint firstAttribute="height" constant="40" id="qyC-FI-GUE"/>
+                                        </constraints>
+                                        <state key="normal" image="redo1.png">
+                                            <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="redo:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="rRr-vz-2pw"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstItem="1lR-4S-JWr" firstAttribute="baseline" secondItem="VW0-df-6a5" secondAttribute="baseline" id="0AE-Cj-KVy"/>
+                                    <constraint firstItem="1lR-4S-JWr" firstAttribute="top" secondItem="VW0-df-6a5" secondAttribute="top" id="HW2-hq-Wpa"/>
+                                    <constraint firstItem="1lR-4S-JWr" firstAttribute="leading" secondItem="1kt-xM-D2N" secondAttribute="leading" constant="48" id="he6-vy-DwH"/>
+                                    <constraint firstItem="1lR-4S-JWr" firstAttribute="top" secondItem="1kt-xM-D2N" secondAttribute="top" constant="20" symbolic="YES" id="rya-tz-pAl"/>
+                                    <constraint firstItem="1lR-4S-JWr" firstAttribute="leading" secondItem="VW0-df-6a5" secondAttribute="trailing" constant="8" symbolic="YES" id="udL-CR-rDA"/>
+                                </constraints>
                                 <userDefinedRuntimeAttributes>
                                     <userDefinedRuntimeAttribute type="color" keyPath="lineColor">
                                         <color key="value" red="0.0" green="0.0" blue="1" alpha="1" colorSpace="calibratedRGB"/>
@@ -36,16 +73,24 @@
                         <constraints>
                             <constraint firstItem="1kt-xM-D2N" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leading" id="Ab3-2S-c2c"/>
                             <constraint firstAttribute="trailing" secondItem="1kt-xM-D2N" secondAttribute="trailing" id="CVY-7n-cv5"/>
-                            <constraint firstItem="azg-XU-Ihp" firstAttribute="top" secondItem="1kt-xM-D2N" secondAttribute="bottom" id="S5O-2f-Eg0"/>
-                            <constraint firstItem="Vcx-np-QUa" firstAttribute="top" secondItem="1kt-xM-D2N" secondAttribute="bottom" constant="-548" id="Uod-8S-Zp0"/>
-                            <constraint firstItem="1kt-xM-D2N" firstAttribute="top" secondItem="kh9-bI-dsS" secondAttribute="top" id="qbS-jr-Ee4"/>
+                            <constraint firstItem="1kt-xM-D2N" firstAttribute="top" secondItem="kh9-bI-dsS" secondAttribute="top" constant="20" symbolic="YES" id="KtZ-rC-7d0"/>
+                            <constraint firstItem="Vcx-np-QUa" firstAttribute="top" secondItem="1kt-xM-D2N" secondAttribute="bottom" constant="-548" id="PAa-fj-LxK"/>
+                            <constraint firstItem="azg-XU-Ihp" firstAttribute="top" secondItem="1kt-xM-D2N" secondAttribute="bottom" id="xYO-zW-Zgf"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="redoButton" destination="1lR-4S-JWr" id="i6B-rZ-wwQ"/>
+                        <outlet property="undoButton" destination="VW0-df-6a5" id="FOj-4T-83o"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
             </objects>
         </scene>
     </scenes>
+    <resources>
+        <image name="redo1.png" width="24" height="22"/>
+        <image name="undo1.png" width="24" height="22"/>
+    </resources>
     <simulatedMetricsContainer key="defaultSimulatedMetrics">
         <simulatedStatusBarMetrics key="statusBar"/>
         <simulatedOrientationMetrics key="orientation"/>
