@@ -19,6 +19,6 @@
 
    ![Class&cmd](Screenshot/view_cmd.png) ![Snap1](Screenshot/1.png)
 
-   可以设置更多属性，得到如下的手绘效果。利用属性可以在界面设计阶段指定绘图效果，而不用写相应的绘图代码。可用的绘图属性见 [GiPaintViewXIB.h](https://github.com/touchvg/vgios/blob/develop/include/GiPaintViewXIB.h)。
+   可以设置更多属性，得到如下的手绘效果。利用属性可以在界面设计阶段指定绘图效果，而不用写相应的绘图代码。可用的绘图属性见 [GiPaintViewXIB.h](https://github.com/touchvg/vgios/blob/develop/include/GiPaintViewXIB.h)。`command`属性用于设置绘图命令。
 
    ![MoreAttr](Screenshot/view_attr.png)  ![Snap2](Screenshot/2.png)

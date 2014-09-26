@@ -15,7 +15,7 @@
 		AEF09CE319D44F59006508D5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AEF09CE219D44F59006508D5 /* main.m */; };
 		AEF09CE719D44F59006508D5 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AEF09CE619D44F59006508D5 /* AppDelegate.m */; };
 		AEF09CEA19D44F59006508D5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AEF09CE819D44F59006508D5 /* Main.storyboard */; };
-		AEF09CED19D44F59006508D5 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AEF09CEC19D44F59006508D5 /* ViewController.m */; };
+		AEF09CED19D44F59006508D5 /* ViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = AEF09CEC19D44F59006508D5 /* ViewController.mm */; };
 		AEF09CEF19D44F59006508D5 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AEF09CEE19D44F59006508D5 /* Images.xcassets */; };
 /* End PBXBuildFile section */
 
@@ -33,7 +33,7 @@
 		AEF09CE619D44F59006508D5 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		AEF09CE919D44F59006508D5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		AEF09CEB19D44F59006508D5 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		AEF09CEC19D44F59006508D5 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		AEF09CEC19D44F59006508D5 /* ViewController.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = ViewController.mm; sourceTree = "<group>"; };
 		AEF09CEE19D44F59006508D5 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		DC7730F4A57A4BB69DD52D63 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -89,7 +89,7 @@
 				AEF09CE619D44F59006508D5 /* AppDelegate.m */,
 				AEF09CE819D44F59006508D5 /* Main.storyboard */,
 				AEF09CEB19D44F59006508D5 /* ViewController.h */,
-				AEF09CEC19D44F59006508D5 /* ViewController.m */,
+				AEF09CEC19D44F59006508D5 /* ViewController.mm */,
 				AEF09CEE19D44F59006508D5 /* Images.xcassets */,
 				AEF09CDD19D44F59006508D5 /* Supporting Files */,
 			);
@@ -207,7 +207,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AEF09CED19D44F59006508D5 /* ViewController.m in Sources */,
+				AEF09CED19D44F59006508D5 /* ViewController.mm in Sources */,
 				AEF09CE719D44F59006508D5 /* AppDelegate.m in Sources */,
 				AEF09CE319D44F59006508D5 /* main.m in Sources */,
 			);
