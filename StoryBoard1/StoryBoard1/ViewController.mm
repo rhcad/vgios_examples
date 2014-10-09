@@ -20,11 +20,6 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     
-    [self.undoButton setImage:[UIImage imageNamed:@"undo1.png"] forState:UIControlStateDisabled];
-    [self.undoButton setImage:[UIImage imageNamed:@"undo2.png"] forState:UIControlStateNormal];
-    [self.redoButton setImage:[UIImage imageNamed:@"redo1.png"] forState:UIControlStateDisabled];
-    [self.redoButton setImage:[UIImage imageNamed:@"redo2.png"] forState:UIControlStateNormal];
-    
     GiViewHelper *hlp = [GiViewHelper sharedInstance];
 
     [hlp startUndoRecord:[LIBRARY_FOLDER stringByAppendingString:@"undo"]];
@@ -35,8 +30,11 @@
 - (void)onContentChanged:(id)view {
     GiViewHelper *hlp = [GiViewHelper sharedInstance];
     
-    self.undoButton.enabled = [hlp canUndo];
-    self.redoButton.enabled = [hlp canRedo];
+    NSString *name = [hlp canUndo] ? @"undo2.png" : @"undo1.png";
+    [self.undoButton setImage:[UIImage imageNamed:name] forState:UIControlStateNormal];
+    
+    name = [hlp canRedo] ? @"redo2.png" : @"redo1.png";
+    [self.redoButton setImage:[UIImage imageNamed:name] forState:UIControlStateNormal];
 }
 
 - (IBAction)undo:(id)sender {
