@@ -4,9 +4,9 @@
 //  Copyright (c) 2014 https://github.com/touchvg
 //
 
-#import <UIKit/UIKit.h>
+#import "GiPaintViewXIB.h"
 
-@interface GiCanvasView : UIView
+@interface GiCanvasView : GiPaintViewXIB
 
 @property(nonatomic, strong)    NSArray         *tools;
 @property(nonatomic, weak)      NSDictionary    *activeTool;

@@ -8,6 +8,7 @@
 #import "WDPalette.h"
 #import "WDToolView.h"
 #import "WDToolButton.h"
+#import "GiViewHelper.h"
 
 NSString *WDActiveToolDidChange = @"WDActiveToolDidChange";
 NSString *WDCanvasBeganTrackingTouches = @"WDCanvasBeganTrackingTouches";
@@ -21,7 +22,7 @@ NSString *WDCanvasBeganTrackingTouches = @"WDCanvasBeganTrackingTouches";
 @implementation GiCanvasView
 
 @synthesize tools = tools_;
-@synthesize activeTool = activeTool_;
+@synthesize activeTool;
 
 - (void)didMoveToSuperview {
     [super didMoveToSuperview];
@@ -53,9 +54,27 @@ NSString *WDCanvasBeganTrackingTouches = @"WDCanvasBeganTrackingTouches";
     [toolPalette_ bringOnScreen];
 }
 
+- (NSDictionary *)activeTool {
+    NSString *cmd = self.helper.command;
+    
+    for (id tool in tools_) {
+        if ([tool isKindOfClass:[NSArray class]]) {
+            for (NSDictionary *subtool in tool) {
+                if ([cmd isEqualToString:[subtool objectForKey:@"name"]]) {
+                    return subtool;
+                }
+            }
+        } else if ([cmd isEqualToString:[tool objectForKey:@"name"]]) {
+            return tool;
+        }
+    }
+    return nil;
+}
+
 - (void)setActiveTool:(NSDictionary *)tool {
-    if (activeTool_ != tool) {
-        activeTool_ = tool;
+    NSString *lastcmd = self.helper.command;
+    self.helper.command = [tool objectForKey:@"name"];
+    if (![lastcmd isEqualToString:self.helper.command]) {
         [self notifyActiveToolDidChange:tool];
     }
 }

@@ -1,0 +1,13 @@
+PODS:
+  - TouchVG (1.1.21):
+    - TouchVGCore (~> 1.0.50)
+  - TouchVGCore (1.0.50)
+
+DEPENDENCIES:
+  - TouchVG
+
+SPEC CHECKSUMS:
+  TouchVG: 22d2d35c8bb05be72304f75dad002b157c1d008e
+  TouchVGCore: d7fb1f04cf00c383a9dafb427920aecd009a1132
+
+COCOAPODS: 0.33.1
