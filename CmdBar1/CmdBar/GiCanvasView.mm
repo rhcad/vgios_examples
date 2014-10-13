@@ -21,12 +21,24 @@ NSString *WDCanvasBeganTrackingTouches = @"WDCanvasBeganTrackingTouches";
 
 @implementation GiCanvasView
 
+@synthesize paintView, helper;
+@synthesize flags, command;
 @synthesize tools = tools_;
 @synthesize activeTool;
 
-- (void)didMoveToSuperview {
-    [super didMoveToSuperview];
-    [self showTools];
+- (NSInteger)flags { return self.helper.view.flags; }
+- (void)setFlags:(NSInteger)f { self.helper.view.flags = f; }
+- (NSString *)command { return self.helper.command; }
+- (void)setCommand:(NSString *)c { self.helper.command = c; }
+
+- (GiViewHelper *)helper {
+    if (!self.paintView) {
+        self.paintView = [[GiPaintViewXIB alloc]initWithFrame:self.bounds];
+        self.paintView.autoresizingMask = 0xFF;
+        [self addSubview:self.paintView];
+        [self.paintView addDelegate:self];
+    }
+    return self.paintView.helper;
 }
 
 - (void)setTools:(NSArray *)value {
@@ -72,18 +84,17 @@ NSString *WDCanvasBeganTrackingTouches = @"WDCanvasBeganTrackingTouches";
 }
 
 - (void)setActiveTool:(NSDictionary *)tool {
-    NSString *lastcmd = self.helper.command;
     self.helper.command = [tool objectForKey:@"name"];
-    if (![lastcmd isEqualToString:self.helper.command]) {
-        [self notifyActiveToolDidChange:tool];
-    }
 }
 
-- (void)notifyActiveToolDidChange:(NSDictionary *)tool {
-    NSDictionary *userInfo = @{@"tool": tool};
-    [[NSNotificationCenter defaultCenter] postNotification:
-     [NSNotification notificationWithName:WDActiveToolDidChange
-                                   object:self userInfo:userInfo]];
+- (void)onCommandChanged:(id)view {
+    NSDictionary *tool = self.activeTool;
+    if (tool) {
+        NSDictionary *userInfo = @{@"tool": tool};
+        [[NSNotificationCenter defaultCenter] postNotification:
+         [NSNotification notificationWithName:WDActiveToolDidChange
+                                       object:self userInfo:userInfo]];
+    }
 }
 
 @end
