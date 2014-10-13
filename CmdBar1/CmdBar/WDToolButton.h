@@ -18,7 +18,6 @@
     UIPopoverController             *subtoolsPopover_;
 }
 
-// Must set the one and only one between tool and tools
 @property (nonatomic, weak) NSDictionary    *tool;  // {name, image}
 @property (nonatomic, weak) NSArray         *tools; // [{name, image}]
 @property (nonatomic, weak) GiCanvasView    *canvas;
