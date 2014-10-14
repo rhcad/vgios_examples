@@ -2,6 +2,7 @@
 -----------
 
 ![screenshot](screenshot.png)
+![screenshot](../CmdBar1/screenshot2.png)
 
 - Settings.plist：设置界面的配置项
 - zh-Hans.lproj/Localizable.strings：设置界面的本地化字符串

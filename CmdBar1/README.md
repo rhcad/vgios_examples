@@ -29,3 +29,5 @@
 4. 运行测试绘图效果，检查上面的命令名是否正确。
 
 ![screenshot](screenshot.png)
+
+![screenshot](screenshot2.png)
