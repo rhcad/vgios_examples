@@ -25,7 +25,9 @@
                        @{@"image" : @"line.png", @"name" : @"line"},
                        @{@"image" : @"rect.png", @"name" : @"rect"},
                        @{@"image" : @"ellipse.png", @"name" : @"ellipse"},
-                       @{@"image" : @"eraser.png", @"name" : @"erase"}];
+                       @{@"image" : @"eraser.png", @"name" : @"erase"},
+                       @{@"name" : @"-"},
+                       @{@"image" : @"gear.png", @"name" : @"*settings"}];
 }
 
 @end

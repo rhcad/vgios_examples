@@ -1,0 +1,13 @@
+/* Localized versions of Settings.plist keys */
+
+"Settings"          = "设置";
+"Snap Enabled"      = "允许吸附";
+"Snap to Vertext"   = "吸附到顶点";
+"Snap to Center"    = "吸附到圆心";
+"Snap to Midpoint"  = "吸附到中点";
+"Snap to Quadrant"  = "吸附到象限点";
+"Snap to Perp"      = "吸附到垂线";
+"Snap to Intersection" = "吸附到交点";
+"Snap to Edge"      = "吸附到边";
+"Context Actions"   = "上下文按钮";
+"Show Magnifier"    = "显示放大镜";

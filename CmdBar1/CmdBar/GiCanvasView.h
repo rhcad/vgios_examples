@@ -6,7 +6,7 @@
 
 #import "GiPaintViewXIB.h"
 
-@interface GiCanvasView : UIView<GiPaintViewDelegate>
+@interface GiCanvasView : UIView<GiPaintViewDelegate, UIPopoverControllerDelegate>
 
 @property(nonatomic, strong)    GiPaintViewXIB  *paintView;
 @property(nonatomic, readonly)  GiViewHelper    *helper;
@@ -15,6 +15,9 @@
 
 @property(nonatomic, strong)    NSArray         *tools;
 @property(nonatomic, weak)      NSDictionary    *activeTool;
+
+- (void)setActiveTool:(NSDictionary *)tool from:(id)sender;
+- (void)showSettingsMenu:(id)sender;
 
 @end
 

@@ -11,6 +11,7 @@
 
 #import "WDToolButton.h"
 #import "WDToolView.h"
+#import "WDEtchedLine.h"
 #import "GiCanvasView.h"
 
 @implementation WDToolView
@@ -20,9 +21,18 @@
 
 - (id) initWithTools:(NSArray *)tools andCanvas:(GiCanvasView *)view
 {
-    CGRect frame = CGRectMake(0, 0, [WDToolButton dimension], [WDToolButton dimension] * tools.count);
+    int h = 0;
     
-    self = [super initWithFrame:frame];
+    for (id tool in tools) {
+        if ([tool isKindOfClass:[NSDictionary class]]
+            && ![((NSDictionary *)tool) objectForKey:@"image"]) {
+            h += 3;
+        } else {
+            h += [WDToolButton dimension];
+        }
+    }
+    
+    self = [super initWithFrame:CGRectMake(0, 0, [WDToolButton dimension], h)];
     
     if (!self) {
         return nil;
@@ -43,7 +53,7 @@
         [self.owner didChooseTool:self];
     }
     
-    self.canvas.activeTool = ((WDToolButton *)sender).tool;
+    [self.canvas setActiveTool:((WDToolButton *)sender).tool from:sender];
 }
 
 - (void) setTools:(NSArray *)tools
@@ -55,6 +65,15 @@
     NSDictionary *activeTool = self.canvas.activeTool;
     
     for (id tool in tools_) {
+        if ([tool isKindOfClass:[NSDictionary class]]
+            && ![((NSDictionary *)tool) objectForKey:@"image"]) {   // separator
+            CGRect rect = CGRectMake(2, CGRectGetMinY(buttonRect) + 1, buttonRect.size.width - 4, 2);
+            WDEtchedLine *line = [[WDEtchedLine alloc] initWithFrame:rect];
+            [self addSubview:line];
+            buttonRect = CGRectOffset(buttonRect, 0, 3);
+            continue;
+        }
+        
         WDToolButton *button = [WDToolButton buttonWithType:UIButtonTypeCustom];
         
         if ([tool isKindOfClass:[NSArray class]]) {
