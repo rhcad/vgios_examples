@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="4514" systemVersion="13F34" targetRuntime="iOS.CocoaTouch.iPad" propertyAccessControl="none" useAutolayout="YES" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="3747"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="SfQ-AG-OzR"/>
+                        <viewControllerLayoutGuide type="bottom" id="YoQ-5v-CKq"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ok9-g8-Waq">
+                                <rect key="frame" x="718" y="20" width="30" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="mkA-Wz-DCV"/>
+                                    <constraint firstAttribute="width" constant="30" id="oTe-7H-Flo"/>
+                                </constraints>
+                                <state key="normal" image="gear.png">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="onSettings:" destination="BYZ-38-t0r" eventType="touchUpInside" id="atQ-mn-UjF"/>
+                                </connections>
+                            </button>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="oyL-g6-JCj" userLabel="canvasView" customClass="GiCanvasView">
+                                <rect key="frame" x="0.0" y="58" width="768" height="966"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="command" value="line"/>
+                                </userDefinedRuntimeAttributes>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="oyL-g6-JCj" secondAttribute="trailing" id="06o-yc-1qh"/>
+                            <constraint firstItem="oyL-g6-JCj" firstAttribute="top" secondItem="ok9-g8-Waq" secondAttribute="bottom" constant="8" id="3xg-DF-9LQ"/>
+                            <constraint firstItem="oyL-g6-JCj" firstAttribute="top" secondItem="SfQ-AG-OzR" secondAttribute="bottom" constant="38" id="4Nf-aP-DxX"/>
+                            <constraint firstItem="oyL-g6-JCj" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="Pvf-ex-3Qg"/>
+                            <constraint firstAttribute="bottom" secondItem="oyL-g6-JCj" secondAttribute="bottom" id="d4I-8p-kQC"/>
+                            <constraint firstAttribute="trailing" secondItem="ok9-g8-Waq" secondAttribute="trailing" constant="20" id="rf6-0o-d2w"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="canvas_" destination="oyL-g6-JCj" id="30W-kr-4LH"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-222" y="-217"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="gear.png" width="24" height="30"/>
+    </resources>
+    <simulatedMetricsContainer key="defaultSimulatedMetrics">
+        <simulatedStatusBarMetrics key="statusBar" statusBarStyle="blackOpaque"/>
+        <simulatedOrientationMetrics key="orientation"/>
+        <simulatedScreenMetrics key="destination"/>
+    </simulatedMetricsContainer>
+</document>

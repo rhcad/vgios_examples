@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>Items</key>
+		<array>
+			<dict>
+				<key>Key</key>
+				<string>snapEnabled</string>
+				<key>Selector</key>
+				<string>takeSnapEnabledFrom:</string>
+				<key>Title</key>
+				<string>Snap Enabled</string>
+				<key>Type</key>
+				<string>Switch</string>
+			</dict>
+			<dict>
+				<key>Key</key>
+				<string>snapVertext</string>
+				<key>Selector</key>
+				<string>takeSnapVertextFrom:</string>
+				<key>Title</key>
+				<string>Snap to Vertext</string>
+				<key>Type</key>
+				<string>Switch</string>
+			</dict>
+			<dict>
+				<key>Key</key>
+				<string>snapCenter</string>
+				<key>Selector</key>
+				<string>takeSnapCenterFrom:</string>
+				<key>Title</key>
+				<string>Snap to Center</string>
+				<key>Type</key>
+				<string>Switch</string>
+			</dict>
+			<dict>
+				<key>Key</key>
+				<string>snapMidPoint</string>
+				<key>Selector</key>
+				<string>takeSnapMidPointFrom:</string>
+				<key>Title</key>
+				<string>Snap to Midpoint</string>
+				<key>Type</key>
+				<string>Switch</string>
+			</dict>
+			<dict>
+				<key>Key</key>
+				<string>snapNear</string>
+				<key>Selector</key>
+				<string>takeSnapNearFrom:</string>
+				<key>Title</key>
+				<string>Snap to Edge</string>
+				<key>Type</key>
+				<string>Switch</string>
+			</dict>
+			<dict>
+				<key>Key</key>
+				<string>snapPerp</string>
+				<key>Selector</key>
+				<string>takeSnapPerpFrom:</string>
+				<key>Title</key>
+				<string>Snap to Perp</string>
+				<key>Type</key>
+				<string>Switch</string>
+			</dict>
+			<dict>
+				<key>Key</key>
+				<string>snapCross</string>
+				<key>Selector</key>
+				<string>takeSnapCrossFrom:</string>
+				<key>Title</key>
+				<string>Snap to Intersection</string>
+				<key>Type</key>
+				<string>Switch</string>
+			</dict>
+		</array>
+	</dict>
+	<dict>
+		<key>Items</key>
+		<array>
+			<dict>
+				<key>Key</key>
+				<string>contextActionEnabled</string>
+				<key>Selector</key>
+				<string>takeContextActionEnabledFrom:</string>
+				<key>Title</key>
+				<string>Context Actions</string>
+				<key>Type</key>
+				<string>Switch</string>
+			</dict>
+			<dict>
+				<key>Key</key>
+				<string>showMagnifier</string>
+				<key>Selector</key>
+				<string>takeShowMagnifierFrom:</string>
+				<key>Title</key>
+				<string>Show Magnifier</string>
+				<key>Type</key>
+				<string>Switch</string>
+			</dict>
+		</array>
+	</dict>
+</array>
+</plist>
