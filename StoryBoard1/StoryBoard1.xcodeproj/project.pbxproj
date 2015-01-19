@@ -156,7 +156,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 0500;
-				ORGANIZATIONNAME = github.com/touchvg;
+				ORGANIZATIONNAME = github.com/rhcad;
 			};
 			buildConfigurationList = AEF09CCE19D44F59006508D5 /* Build configuration list for PBXProject "StoryBoard1" */;
 			compatibilityVersion = "Xcode 3.2";
