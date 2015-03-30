@@ -22,7 +22,7 @@
 		027F102419EBD9F4000394DC /* WDSettingsController.m in Sources */ = {isa = PBXBuildFile; fileRef = 027F102319EBD9F4000394DC /* WDSettingsController.m */; };
 		027F102619EBDA42000394DC /* Settings.plist in Resources */ = {isa = PBXBuildFile; fileRef = 027F102519EBDA42000394DC /* Settings.plist */; };
 		027F102B19ECA67A000394DC /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 027F102919ECA67A000394DC /* Localizable.strings */; };
-		129BC3891B9C4F6BAAF50076 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 203559D41B984189B61024A1 /* libPods.a */; };
+		4C841A412F253EC46B84A615 /* libPods-MenuBar.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 404562209326E6AA4F5A1A0F /* libPods-MenuBar.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -48,9 +48,10 @@
 		027F102319EBD9F4000394DC /* WDSettingsController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WDSettingsController.m; sourceTree = "<group>"; };
 		027F102519EBDA42000394DC /* Settings.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Settings.plist; sourceTree = "<group>"; };
 		027F102A19ECA67A000394DC /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = Localizable.strings; sourceTree = "<group>"; };
-		203559D41B984189B61024A1 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		BBCE2BFEE4CD3DEC788A4BD9 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
-		EA3A32352C203CC94C0EAEB1 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		404562209326E6AA4F5A1A0F /* libPods-MenuBar.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MenuBar.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8A8FF71584D9AFD34540040F /* Pods-MenuBar.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MenuBar.debug.xcconfig"; path = "../Pods/Target Support Files/Pods-MenuBar/Pods-MenuBar.debug.xcconfig"; sourceTree = "<group>"; };
+		AEAC611C1AC99F1E00360783 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		CBC03084E2BEA82611CB36B6 /* Pods-MenuBar.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MenuBar.release.xcconfig"; path = "../Pods/Target Support Files/Pods-MenuBar/Pods-MenuBar.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,7 +62,7 @@
 				022BA7E819E8CF58007FFDEF /* CoreGraphics.framework in Frameworks */,
 				022BA7EA19E8CF58007FFDEF /* UIKit.framework in Frameworks */,
 				022BA7E619E8CF58007FFDEF /* Foundation.framework in Frameworks */,
-				129BC3891B9C4F6BAAF50076 /* libPods.a in Frameworks */,
+				4C841A412F253EC46B84A615 /* libPods-MenuBar.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -71,10 +72,11 @@
 		022BA7D919E8CF58007FFDEF = {
 			isa = PBXGroup;
 			children = (
+				AEAC611C1AC99F1E00360783 /* README.md */,
 				022BA7EB19E8CF58007FFDEF /* MenuBar */,
 				022BA7E419E8CF58007FFDEF /* Frameworks */,
 				022BA7E319E8CF58007FFDEF /* Products */,
-				C99A455D287FF5AE049D0A2A /* Pods */,
+				BC95BF8978430439816F305D /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -92,7 +94,7 @@
 				022BA7E519E8CF58007FFDEF /* Foundation.framework */,
 				022BA7E719E8CF58007FFDEF /* CoreGraphics.framework */,
 				022BA7E919E8CF58007FFDEF /* UIKit.framework */,
-				203559D41B984189B61024A1 /* libPods.a */,
+				404562209326E6AA4F5A1A0F /* libPods-MenuBar.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -146,11 +148,11 @@
 			path = "zh-Hans.lproj";
 			sourceTree = "<group>";
 		};
-		C99A455D287FF5AE049D0A2A /* Pods */ = {
+		BC95BF8978430439816F305D /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				EA3A32352C203CC94C0EAEB1 /* Pods.debug.xcconfig */,
-				BBCE2BFEE4CD3DEC788A4BD9 /* Pods.release.xcconfig */,
+				8A8FF71584D9AFD34540040F /* Pods-MenuBar.debug.xcconfig */,
+				CBC03084E2BEA82611CB36B6 /* Pods-MenuBar.release.xcconfig */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
@@ -162,11 +164,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 022BA81419E8CF58007FFDEF /* Build configuration list for PBXNativeTarget "MenuBar" */;
 			buildPhases = (
-				2EB76C0632034E53AE485359 /* Check Pods Manifest.lock */,
+				83465CECE8223AA9C8D6C25F /* Check Pods Manifest.lock */,
 				022BA7DE19E8CF58007FFDEF /* Sources */,
 				022BA7DF19E8CF58007FFDEF /* Frameworks */,
 				022BA7E019E8CF58007FFDEF /* Resources */,
-				C99F9B96EEDF41D091EC7BE1 /* Copy Pods Resources */,
+				EF0092B2DBAAC229BE0B0194 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -223,7 +225,7 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		2EB76C0632034E53AE485359 /* Check Pods Manifest.lock */ = {
+		83465CECE8223AA9C8D6C25F /* Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -238,7 +240,7 @@
 			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
 			showEnvVarsInLog = 0;
 		};
-		C99F9B96EEDF41D091EC7BE1 /* Copy Pods Resources */ = {
+		EF0092B2DBAAC229BE0B0194 /* Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -250,7 +252,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			shellScript = "\"${SRCROOT}/../Pods/Target Support Files/Pods-MenuBar/Pods-MenuBar-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -374,7 +376,7 @@
 		};
 		022BA81519E8CF58007FFDEF /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = EA3A32352C203CC94C0EAEB1 /* Pods.debug.xcconfig */;
+			baseConfigurationReference = 8A8FF71584D9AFD34540040F /* Pods-MenuBar.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -389,7 +391,7 @@
 		};
 		022BA81619E8CF58007FFDEF /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = BBCE2BFEE4CD3DEC788A4BD9 /* Pods.release.xcconfig */;
+			baseConfigurationReference = CBC03084E2BEA82611CB36B6 /* Pods-MenuBar.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;

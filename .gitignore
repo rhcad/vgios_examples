@@ -9,12 +9,11 @@
 *.tmp
 *.o
 *.d
-profile
 
 #Xcode files
 *.log
 xcuserdata
-xcshareddata
+*.xccheckout
 
 *.pbxuser
 *.mode2v3
