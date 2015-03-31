@@ -1,5 +1,5 @@
 ## 例1：使用StoryBoard绘图
------------
+------------------------
 
 > 本例介绍在StoryBoard中使用TouchVG的方法，可以不写绘图代码。
 
@@ -25,7 +25,7 @@
    ![MoreAttr](Screenshot/view_attr.png)  ![Snap2](Screenshot/2.png)
 
 ## 例2：增加Undo/Redo功能
------------
+-----------------------
 
 1. 在工程中添加Undo、Redo的按钮图片，每个按钮都有可用和不可用两种状态图片，共4个图片。
 

@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "022BA7E119E8CF58007FFDEF"
-               BuildableName = "MenuBar.app"
-               BlueprintName = "MenuBar"
-               ReferencedContainer = "container:MenuBar.xcodeproj">
+               BuildableName = "OptionsView1.app"
+               BlueprintName = "OptionsView1"
+               ReferencedContainer = "container:OptionsView1.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -33,9 +33,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "022BA7E119E8CF58007FFDEF"
-            BuildableName = "MenuBar.app"
-            BlueprintName = "MenuBar"
-            ReferencedContainer = "container:MenuBar.xcodeproj">
+            BuildableName = "OptionsView1.app"
+            BlueprintName = "OptionsView1"
+            ReferencedContainer = "container:OptionsView1.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
    </TestAction>
@@ -53,9 +53,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "022BA7E119E8CF58007FFDEF"
-            BuildableName = "MenuBar.app"
-            BlueprintName = "MenuBar"
-            ReferencedContainer = "container:MenuBar.xcodeproj">
+            BuildableName = "OptionsView1.app"
+            BlueprintName = "OptionsView1"
+            ReferencedContainer = "container:OptionsView1.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -72,9 +72,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "022BA7E119E8CF58007FFDEF"
-            BuildableName = "MenuBar.app"
-            BlueprintName = "MenuBar"
-            ReferencedContainer = "container:MenuBar.xcodeproj">
+            BuildableName = "OptionsView1.app"
+            BlueprintName = "OptionsView1"
+            ReferencedContainer = "container:OptionsView1.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

@@ -22,18 +22,18 @@
 		027F102419EBD9F4000394DC /* WDSettingsController.m in Sources */ = {isa = PBXBuildFile; fileRef = 027F102319EBD9F4000394DC /* WDSettingsController.m */; };
 		027F102619EBDA42000394DC /* Settings.plist in Resources */ = {isa = PBXBuildFile; fileRef = 027F102519EBDA42000394DC /* Settings.plist */; };
 		027F102B19ECA67A000394DC /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 027F102919ECA67A000394DC /* Localizable.strings */; };
-		4C841A412F253EC46B84A615 /* libPods-MenuBar.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 404562209326E6AA4F5A1A0F /* libPods-MenuBar.a */; };
+		4C841A412F253EC46B84A615 /* libPods-OptionsView1.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 404562209326E6AA4F5A1A0F /* libPods-OptionsView1.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		022BA7E219E8CF58007FFDEF /* MenuBar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MenuBar.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		022BA7E219E8CF58007FFDEF /* OptionsView1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OptionsView1.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		022BA7E519E8CF58007FFDEF /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		022BA7E719E8CF58007FFDEF /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		022BA7E919E8CF58007FFDEF /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
-		022BA7ED19E8CF58007FFDEF /* MenuBar-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MenuBar-Info.plist"; sourceTree = "<group>"; };
+		022BA7ED19E8CF58007FFDEF /* OptionsView1-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "OptionsView1-Info.plist"; sourceTree = "<group>"; };
 		022BA7EF19E8CF58007FFDEF /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		022BA7F119E8CF58007FFDEF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		022BA7F319E8CF58007FFDEF /* MenuBar-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MenuBar-Prefix.pch"; sourceTree = "<group>"; };
+		022BA7F319E8CF58007FFDEF /* OptionsView1-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "OptionsView1-Prefix.pch"; sourceTree = "<group>"; };
 		022BA7F419E8CF58007FFDEF /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		022BA7F519E8CF58007FFDEF /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		022BA7F819E8CF58007FFDEF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -48,10 +48,10 @@
 		027F102319EBD9F4000394DC /* WDSettingsController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WDSettingsController.m; sourceTree = "<group>"; };
 		027F102519EBDA42000394DC /* Settings.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Settings.plist; sourceTree = "<group>"; };
 		027F102A19ECA67A000394DC /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = Localizable.strings; sourceTree = "<group>"; };
-		404562209326E6AA4F5A1A0F /* libPods-MenuBar.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MenuBar.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		8A8FF71584D9AFD34540040F /* Pods-MenuBar.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MenuBar.debug.xcconfig"; path = "../Pods/Target Support Files/Pods-MenuBar/Pods-MenuBar.debug.xcconfig"; sourceTree = "<group>"; };
+		404562209326E6AA4F5A1A0F /* libPods-OptionsView1.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-OptionsView1.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8A8FF71584D9AFD34540040F /* Pods-OptionsView1.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OptionsView1.debug.xcconfig"; path = "../Pods/Target Support Files/Pods-OptionsView1/Pods-OptionsView1.debug.xcconfig"; sourceTree = "<group>"; };
 		AEAC611C1AC99F1E00360783 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
-		CBC03084E2BEA82611CB36B6 /* Pods-MenuBar.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MenuBar.release.xcconfig"; path = "../Pods/Target Support Files/Pods-MenuBar/Pods-MenuBar.release.xcconfig"; sourceTree = "<group>"; };
+		CBC03084E2BEA82611CB36B6 /* Pods-OptionsView1.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OptionsView1.release.xcconfig"; path = "../Pods/Target Support Files/Pods-OptionsView1/Pods-OptionsView1.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,7 +62,7 @@
 				022BA7E819E8CF58007FFDEF /* CoreGraphics.framework in Frameworks */,
 				022BA7EA19E8CF58007FFDEF /* UIKit.framework in Frameworks */,
 				022BA7E619E8CF58007FFDEF /* Foundation.framework in Frameworks */,
-				4C841A412F253EC46B84A615 /* libPods-MenuBar.a in Frameworks */,
+				4C841A412F253EC46B84A615 /* libPods-OptionsView1.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -73,7 +73,7 @@
 			isa = PBXGroup;
 			children = (
 				AEAC611C1AC99F1E00360783 /* README.md */,
-				022BA7EB19E8CF58007FFDEF /* MenuBar */,
+				022BA7EB19E8CF58007FFDEF /* OptionsView1 */,
 				022BA7E419E8CF58007FFDEF /* Frameworks */,
 				022BA7E319E8CF58007FFDEF /* Products */,
 				BC95BF8978430439816F305D /* Pods */,
@@ -83,7 +83,7 @@
 		022BA7E319E8CF58007FFDEF /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				022BA7E219E8CF58007FFDEF /* MenuBar.app */,
+				022BA7E219E8CF58007FFDEF /* OptionsView1.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -94,12 +94,12 @@
 				022BA7E519E8CF58007FFDEF /* Foundation.framework */,
 				022BA7E719E8CF58007FFDEF /* CoreGraphics.framework */,
 				022BA7E919E8CF58007FFDEF /* UIKit.framework */,
-				404562209326E6AA4F5A1A0F /* libPods-MenuBar.a */,
+				404562209326E6AA4F5A1A0F /* libPods-OptionsView1.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		022BA7EB19E8CF58007FFDEF /* MenuBar */ = {
+		022BA7EB19E8CF58007FFDEF /* OptionsView1 */ = {
 			isa = PBXGroup;
 			children = (
 				022BA7F419E8CF58007FFDEF /* AppDelegate.h */,
@@ -117,16 +117,16 @@
 				027F102219EBD9F4000394DC /* WDSettingsController.h */,
 				027F102319EBD9F4000394DC /* WDSettingsController.m */,
 			);
-			path = MenuBar;
+			path = OptionsView1;
 			sourceTree = "<group>";
 		};
 		022BA7EC19E8CF58007FFDEF /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				022BA7ED19E8CF58007FFDEF /* MenuBar-Info.plist */,
+				022BA7ED19E8CF58007FFDEF /* OptionsView1-Info.plist */,
 				022BA7EE19E8CF58007FFDEF /* InfoPlist.strings */,
 				022BA7F119E8CF58007FFDEF /* main.m */,
-				022BA7F319E8CF58007FFDEF /* MenuBar-Prefix.pch */,
+				022BA7F319E8CF58007FFDEF /* OptionsView1-Prefix.pch */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -151,8 +151,8 @@
 		BC95BF8978430439816F305D /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				8A8FF71584D9AFD34540040F /* Pods-MenuBar.debug.xcconfig */,
-				CBC03084E2BEA82611CB36B6 /* Pods-MenuBar.release.xcconfig */,
+				8A8FF71584D9AFD34540040F /* Pods-OptionsView1.debug.xcconfig */,
+				CBC03084E2BEA82611CB36B6 /* Pods-OptionsView1.release.xcconfig */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
@@ -160,9 +160,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		022BA7E119E8CF58007FFDEF /* MenuBar */ = {
+		022BA7E119E8CF58007FFDEF /* OptionsView1 */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 022BA81419E8CF58007FFDEF /* Build configuration list for PBXNativeTarget "MenuBar" */;
+			buildConfigurationList = 022BA81419E8CF58007FFDEF /* Build configuration list for PBXNativeTarget "OptionsView1" */;
 			buildPhases = (
 				83465CECE8223AA9C8D6C25F /* Check Pods Manifest.lock */,
 				022BA7DE19E8CF58007FFDEF /* Sources */,
@@ -174,9 +174,9 @@
 			);
 			dependencies = (
 			);
-			name = MenuBar;
-			productName = MenuBar;
-			productReference = 022BA7E219E8CF58007FFDEF /* MenuBar.app */;
+			name = OptionsView1;
+			productName = OptionsView1;
+			productReference = 022BA7E219E8CF58007FFDEF /* OptionsView1.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -188,7 +188,7 @@
 				LastUpgradeCheck = 0500;
 				ORGANIZATIONNAME = github.com/rhcad;
 			};
-			buildConfigurationList = 022BA7DD19E8CF58007FFDEF /* Build configuration list for PBXProject "MenuBar" */;
+			buildConfigurationList = 022BA7DD19E8CF58007FFDEF /* Build configuration list for PBXProject "OptionsView1" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -202,7 +202,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				022BA7E119E8CF58007FFDEF /* MenuBar */,
+				022BA7E119E8CF58007FFDEF /* OptionsView1 */,
 			);
 		};
 /* End PBXProject section */
@@ -252,7 +252,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/../Pods/Target Support Files/Pods-MenuBar/Pods-MenuBar-resources.sh\"\n";
+			shellScript = "\"${SRCROOT}/../Pods/Target Support Files/Pods-OptionsView1/Pods-OptionsView1-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -376,13 +376,13 @@
 		};
 		022BA81519E8CF58007FFDEF /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 8A8FF71584D9AFD34540040F /* Pods-MenuBar.debug.xcconfig */;
+			baseConfigurationReference = 8A8FF71584D9AFD34540040F /* Pods-OptionsView1.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "MenuBar/MenuBar-Prefix.pch";
-				INFOPLIST_FILE = "MenuBar/MenuBar-Info.plist";
+				GCC_PREFIX_HEADER = "OptionsView1/OptionsView1-Prefix.pch";
+				INFOPLIST_FILE = "OptionsView1/OptionsView1-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
 				WRAPPER_EXTENSION = app;
@@ -391,13 +391,13 @@
 		};
 		022BA81619E8CF58007FFDEF /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = CBC03084E2BEA82611CB36B6 /* Pods-MenuBar.release.xcconfig */;
+			baseConfigurationReference = CBC03084E2BEA82611CB36B6 /* Pods-OptionsView1.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "MenuBar/MenuBar-Prefix.pch";
-				INFOPLIST_FILE = "MenuBar/MenuBar-Info.plist";
+				GCC_PREFIX_HEADER = "OptionsView1/OptionsView1-Prefix.pch";
+				INFOPLIST_FILE = "OptionsView1/OptionsView1-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
 				WRAPPER_EXTENSION = app;
@@ -407,7 +407,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		022BA7DD19E8CF58007FFDEF /* Build configuration list for PBXProject "MenuBar" */ = {
+		022BA7DD19E8CF58007FFDEF /* Build configuration list for PBXProject "OptionsView1" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				022BA81219E8CF58007FFDEF /* Debug */,
@@ -416,7 +416,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		022BA81419E8CF58007FFDEF /* Build configuration list for PBXNativeTarget "MenuBar" */ = {
+		022BA81419E8CF58007FFDEF /* Build configuration list for PBXNativeTarget "OptionsView1" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				022BA81519E8CF58007FFDEF /* Debug */,

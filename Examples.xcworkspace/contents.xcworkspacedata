@@ -8,10 +8,10 @@
       location = "group:StoryBoard1/StoryBoard1.xcodeproj">
    </FileRef>
    <FileRef
-      location = "group:CmdBar1/CmdBar.xcodeproj">
+      location = "group:CmdBar1/CmdBar1.xcodeproj">
    </FileRef>
    <FileRef
-      location = "group:MenuBar1/MenuBar.xcodeproj">
+      location = "group:OptionsView1/OptionsView1.xcodeproj">
    </FileRef>
    <FileRef
       location = "group:Pods/Pods.xcodeproj">

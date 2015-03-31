@@ -1,5 +1,5 @@
 ## 例3：绘图命令工具栏
------------
+-------------------
 
 1. 在StoryBoard中添加 GiCanvasView 视图，并在 ViewController 中创建关联变量 canvas_：
 

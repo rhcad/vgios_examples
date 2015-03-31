@@ -1,6 +1,6 @@
 //
 //  ViewController.mm
-//  MenuBar
+//  OptionsView1
 //
 //  Created by Zhang Yungui on 14-10-14.
 //  Copyright (c) 2014 https://github.com/rhcad

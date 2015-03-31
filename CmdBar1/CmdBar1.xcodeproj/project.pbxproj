@@ -39,18 +39,18 @@
 		027F103719ECC29A000394DC /* gear@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 027F103519ECC29A000394DC /* gear@2x.png */; };
 		027F103819ECC29A000394DC /* gear.png in Resources */ = {isa = PBXBuildFile; fileRef = 027F103619ECC29A000394DC /* gear.png */; };
 		027F103B19ECC705000394DC /* WDEtchedLine.m in Sources */ = {isa = PBXBuildFile; fileRef = 027F103A19ECC705000394DC /* WDEtchedLine.m */; };
-		640ACDC1DF2D37D35DA9EDBB /* libPods-CmdBar.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BF84075BADC0FF4900807460 /* libPods-CmdBar.a */; };
+		640ACDC1DF2D37D35DA9EDBB /* libPods-CmdBar1.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BF84075BADC0FF4900807460 /* libPods-CmdBar1.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		022BA7E219E8CF58007FFDEF /* CmdBar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CmdBar.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		022BA7E219E8CF58007FFDEF /* CmdBar1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CmdBar1.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		022BA7E519E8CF58007FFDEF /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		022BA7E719E8CF58007FFDEF /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		022BA7E919E8CF58007FFDEF /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
-		022BA7ED19E8CF58007FFDEF /* CmdBar-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CmdBar-Info.plist"; sourceTree = "<group>"; };
+		022BA7ED19E8CF58007FFDEF /* CmdBar1-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CmdBar1-Info.plist"; sourceTree = "<group>"; };
 		022BA7EF19E8CF58007FFDEF /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		022BA7F119E8CF58007FFDEF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		022BA7F319E8CF58007FFDEF /* CmdBar-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CmdBar-Prefix.pch"; sourceTree = "<group>"; };
+		022BA7F319E8CF58007FFDEF /* CmdBar1-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CmdBar1-Prefix.pch"; sourceTree = "<group>"; };
 		022BA7F419E8CF58007FFDEF /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		022BA7F519E8CF58007FFDEF /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		022BA7F819E8CF58007FFDEF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -89,9 +89,9 @@
 		027F103919ECC705000394DC /* WDEtchedLine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WDEtchedLine.h; sourceTree = "<group>"; };
 		027F103A19ECC705000394DC /* WDEtchedLine.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WDEtchedLine.m; sourceTree = "<group>"; };
 		AEAC611B1AC99F1000360783 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
-		BF84075BADC0FF4900807460 /* libPods-CmdBar.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-CmdBar.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		CFF46719B45B83430D4C7038 /* Pods-CmdBar.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CmdBar.release.xcconfig"; path = "../Pods/Target Support Files/Pods-CmdBar/Pods-CmdBar.release.xcconfig"; sourceTree = "<group>"; };
-		DD1BB169E38C1DF20F71367C /* Pods-CmdBar.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CmdBar.debug.xcconfig"; path = "../Pods/Target Support Files/Pods-CmdBar/Pods-CmdBar.debug.xcconfig"; sourceTree = "<group>"; };
+		BF84075BADC0FF4900807460 /* libPods-CmdBar1.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-CmdBar1.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CFF46719B45B83430D4C7038 /* Pods-CmdBar1.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CmdBar1.release.xcconfig"; path = "../Pods/Target Support Files/Pods-CmdBar1/Pods-CmdBar1.release.xcconfig"; sourceTree = "<group>"; };
+		DD1BB169E38C1DF20F71367C /* Pods-CmdBar1.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CmdBar1.debug.xcconfig"; path = "../Pods/Target Support Files/Pods-CmdBar1/Pods-CmdBar1.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,7 +102,7 @@
 				022BA7E819E8CF58007FFDEF /* CoreGraphics.framework in Frameworks */,
 				022BA7EA19E8CF58007FFDEF /* UIKit.framework in Frameworks */,
 				022BA7E619E8CF58007FFDEF /* Foundation.framework in Frameworks */,
-				640ACDC1DF2D37D35DA9EDBB /* libPods-CmdBar.a in Frameworks */,
+				640ACDC1DF2D37D35DA9EDBB /* libPods-CmdBar1.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -113,7 +113,7 @@
 			isa = PBXGroup;
 			children = (
 				AEAC611B1AC99F1000360783 /* README.md */,
-				022BA7EB19E8CF58007FFDEF /* CmdBar */,
+				022BA7EB19E8CF58007FFDEF /* CmdBar1 */,
 				022BA7E419E8CF58007FFDEF /* Frameworks */,
 				022BA7E319E8CF58007FFDEF /* Products */,
 				0B3FC9FFAA7F5F3305B40EBA /* Pods */,
@@ -123,7 +123,7 @@
 		022BA7E319E8CF58007FFDEF /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				022BA7E219E8CF58007FFDEF /* CmdBar.app */,
+				022BA7E219E8CF58007FFDEF /* CmdBar1.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -134,12 +134,12 @@
 				022BA7E519E8CF58007FFDEF /* Foundation.framework */,
 				022BA7E719E8CF58007FFDEF /* CoreGraphics.framework */,
 				022BA7E919E8CF58007FFDEF /* UIKit.framework */,
-				BF84075BADC0FF4900807460 /* libPods-CmdBar.a */,
+				BF84075BADC0FF4900807460 /* libPods-CmdBar1.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		022BA7EB19E8CF58007FFDEF /* CmdBar */ = {
+		022BA7EB19E8CF58007FFDEF /* CmdBar1 */ = {
 			isa = PBXGroup;
 			children = (
 				022BA7F419E8CF58007FFDEF /* AppDelegate.h */,
@@ -169,16 +169,16 @@
 				022BA82C19E8D762007FFDEF /* WDUtilities.h */,
 				022BA82D19E8D762007FFDEF /* WDUtilities.m */,
 			);
-			path = CmdBar;
+			path = CmdBar1;
 			sourceTree = "<group>";
 		};
 		022BA7EC19E8CF58007FFDEF /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				022BA7ED19E8CF58007FFDEF /* CmdBar-Info.plist */,
+				022BA7ED19E8CF58007FFDEF /* CmdBar1-Info.plist */,
 				022BA7EE19E8CF58007FFDEF /* InfoPlist.strings */,
 				022BA7F119E8CF58007FFDEF /* main.m */,
-				022BA7F319E8CF58007FFDEF /* CmdBar-Prefix.pch */,
+				022BA7F319E8CF58007FFDEF /* CmdBar1-Prefix.pch */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -214,8 +214,8 @@
 		0B3FC9FFAA7F5F3305B40EBA /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				DD1BB169E38C1DF20F71367C /* Pods-CmdBar.debug.xcconfig */,
-				CFF46719B45B83430D4C7038 /* Pods-CmdBar.release.xcconfig */,
+				DD1BB169E38C1DF20F71367C /* Pods-CmdBar1.debug.xcconfig */,
+				CFF46719B45B83430D4C7038 /* Pods-CmdBar1.release.xcconfig */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
@@ -223,9 +223,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		022BA7E119E8CF58007FFDEF /* CmdBar */ = {
+		022BA7E119E8CF58007FFDEF /* CmdBar1 */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 022BA81419E8CF58007FFDEF /* Build configuration list for PBXNativeTarget "CmdBar" */;
+			buildConfigurationList = 022BA81419E8CF58007FFDEF /* Build configuration list for PBXNativeTarget "CmdBar1" */;
 			buildPhases = (
 				2CFA5A7314E8E564A584B61C /* Check Pods Manifest.lock */,
 				022BA7DE19E8CF58007FFDEF /* Sources */,
@@ -237,9 +237,9 @@
 			);
 			dependencies = (
 			);
-			name = CmdBar;
-			productName = CmdBar;
-			productReference = 022BA7E219E8CF58007FFDEF /* CmdBar.app */;
+			name = CmdBar1;
+			productName = CmdBar1;
+			productReference = 022BA7E219E8CF58007FFDEF /* CmdBar1.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -251,7 +251,7 @@
 				LastUpgradeCheck = 0500;
 				ORGANIZATIONNAME = github.com/rhcad;
 			};
-			buildConfigurationList = 022BA7DD19E8CF58007FFDEF /* Build configuration list for PBXProject "CmdBar" */;
+			buildConfigurationList = 022BA7DD19E8CF58007FFDEF /* Build configuration list for PBXProject "CmdBar1" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -265,7 +265,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				022BA7E119E8CF58007FFDEF /* CmdBar */,
+				022BA7E119E8CF58007FFDEF /* CmdBar1 */,
 			);
 		};
 /* End PBXProject section */
@@ -326,7 +326,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/../Pods/Target Support Files/Pods-CmdBar/Pods-CmdBar-resources.sh\"\n";
+			shellScript = "\"${SRCROOT}/../Pods/Target Support Files/Pods-CmdBar1/Pods-CmdBar1-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -456,13 +456,13 @@
 		};
 		022BA81519E8CF58007FFDEF /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = DD1BB169E38C1DF20F71367C /* Pods-CmdBar.debug.xcconfig */;
+			baseConfigurationReference = DD1BB169E38C1DF20F71367C /* Pods-CmdBar1.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "CmdBar/CmdBar-Prefix.pch";
-				INFOPLIST_FILE = "CmdBar/CmdBar-Info.plist";
+				GCC_PREFIX_HEADER = "CmdBar1/CmdBar1-Prefix.pch";
+				INFOPLIST_FILE = "CmdBar1/CmdBar1-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
 				WRAPPER_EXTENSION = app;
@@ -471,13 +471,13 @@
 		};
 		022BA81619E8CF58007FFDEF /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = CFF46719B45B83430D4C7038 /* Pods-CmdBar.release.xcconfig */;
+			baseConfigurationReference = CFF46719B45B83430D4C7038 /* Pods-CmdBar1.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "CmdBar/CmdBar-Prefix.pch";
-				INFOPLIST_FILE = "CmdBar/CmdBar-Info.plist";
+				GCC_PREFIX_HEADER = "CmdBar1/CmdBar1-Prefix.pch";
+				INFOPLIST_FILE = "CmdBar1/CmdBar1-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
 				WRAPPER_EXTENSION = app;
@@ -487,7 +487,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		022BA7DD19E8CF58007FFDEF /* Build configuration list for PBXProject "CmdBar" */ = {
+		022BA7DD19E8CF58007FFDEF /* Build configuration list for PBXProject "CmdBar1" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				022BA81219E8CF58007FFDEF /* Debug */,
@@ -496,7 +496,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		022BA81419E8CF58007FFDEF /* Build configuration list for PBXNativeTarget "CmdBar" */ = {
+		022BA81419E8CF58007FFDEF /* Build configuration list for PBXNativeTarget "CmdBar1" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				022BA81519E8CF58007FFDEF /* Debug */,

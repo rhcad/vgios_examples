@@ -6,5 +6,5 @@ before_install:
 
 script:
     - xctool -workspace Examples.xcworkspace -scheme StoryBoard1 -sdk iphonesimulator build
-    - xctool -workspace Examples.xcworkspace -scheme CmdBar -sdk iphonesimulator build
-    - xctool -workspace Examples.xcworkspace -scheme MenuBar -sdk iphonesimulator build
+    - xctool -workspace Examples.xcworkspace -scheme CmdBar1 -sdk iphonesimulator build
+    - xctool -workspace Examples.xcworkspace -scheme OptionsView1 -sdk iphonesimulator build

@@ -1,5 +1,5 @@
-## 例4：设置选项界面
------------
+## 例4：选项设置界面
+-----------------
 
 ![screenshot](screenshot.png)
 ![screenshot](../CmdBar1/screenshot2.png)
