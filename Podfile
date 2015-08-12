@@ -2,6 +2,7 @@ workspace 'Examples'
 xcodeproj 'StoryBoard1/StoryBoard1.xcodeproj'
 xcodeproj 'CmdBar1/CmdBar1.xcodeproj'
 xcodeproj 'OptionsView1/OptionsView1.xcodeproj'
+xcodeproj 'SplinesEraser/SplinesEraser.xcodeproj'
 
 target :StoryBoard1 do
     platform :ios, '7.0'
@@ -19,4 +20,10 @@ target :OptionsView1 do
     platform :ios, '7.0'
     pod 'TouchVG'
     xcodeproj 'OptionsView1/OptionsView1.xcodeproj'
+end
+
+target :SplinesEraser do
+    platform :ios, '7.0'
+    pod 'TouchVG'
+    xcodeproj 'SplinesEraser/SplinesEraser.xcodeproj'
 end

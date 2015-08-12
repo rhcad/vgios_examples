@@ -8,6 +8,7 @@
 1. [增加Undo/Redo功能](StoryBoard1/README.md)
 1. [绘图命令按钮栏](CmdBar1/README.md)
 1. [选项设置界面](OptionsView1/README.md)
+1. [图片橡皮擦](SplinesEraser/README.md)
 
 ## 编译
 

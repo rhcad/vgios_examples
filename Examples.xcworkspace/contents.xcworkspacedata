@@ -14,6 +14,9 @@
       location = "group:OptionsView1/OptionsView1.xcodeproj">
    </FileRef>
    <FileRef
+      location = "group:SplinesEraser/SplinesEraser.xcodeproj">
+   </FileRef>
+   <FileRef
       location = "group:Pods/Pods.xcodeproj">
    </FileRef>
 </Workspace>

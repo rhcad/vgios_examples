@@ -1,13 +1,13 @@
 PODS:
-  - TouchVG (1.1.32):
-    - TouchVGCore (~> 1.0.61)
-  - TouchVGCore (1.0.61)
+  - TouchVG (1.1.33):
+    - TouchVGCore (~> 1.0.62)
+  - TouchVGCore (1.0.62)
 
 DEPENDENCIES:
   - TouchVG
 
 SPEC CHECKSUMS:
-  TouchVG: 202bf9b02e1b56bc450917b859a8f5511f396696
-  TouchVGCore: f268b41f3738e8a7bafa9a30a7bc36325fe48838
+  TouchVG: d6f5e89066df8e1921f29b12cf9adb0405ab64b3
+  TouchVGCore: f2665d68905c41410642f7fbe281b6cbdec99506
 
-COCOAPODS: 0.36.1
+COCOAPODS: 0.38.2
